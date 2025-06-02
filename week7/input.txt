@@ -1,0 +1,105 @@
+# Location data format:
+# name,type,region,rating,cost
+# 
+# Distance data format:
+# from,to,distance,time
+#
+# LOCATIONS
+Home,Base,Local,0,0
+Mountain View,Nature,North,4.5,120
+Seaside,Beach,West,4.8,180
+Historic Town,Cultural,East,4.2,90
+Lakeside,Nature,North,4.6,150
+Vineyard,Food,South,4.3,200
+Theme Park,Entertainment,West,3.9,250
+Museum City,Cultural,East,4.4,110
+Forest Retreat,Nature,North,4.7,160
+Spa Resort,Relaxation,South,4.5,220
+Wildlife Park,Nature,West,4.2,130
+Culinary Village,Food,South,4.6,170
+Historic Castle,Cultural,East,4.4,140
+Mountain Lodge,Nature,North,4.3,190
+Beach Resort,Beach,West,4.7,240
+Desert Oasis,Nature,South,4.0,160
+Art Town,Cultural,East,4.3,120
+Adventure Park,Entertainment,West,4.1,210
+Island Getaway,Beach,South,4.9,280
+National Park,Nature,North,4.8,110
+Ski Resort,Nature,North,4.5,230
+Urban Center,Cultural,East,3.8,100
+Hot Springs,Relaxation,South,4.4,190
+Fishing Village,Beach,West,4.2,150
+Mountain Trail,Nature,North,4.6,80
+Historic Site,Cultural,East,4.3,130
+Amusement Park,Entertainment,West,4.0,200
+Botanical Garden,Nature,South,4.5,90
+Coastal Town,Beach,West,4.7,170
+Concert Venue,Entertainment,East,4.1,220
+
+# DISTANCES
+Home,Mountain View,120,2.5
+Home,Seaside,200,4.0
+Home,Historic Town,80,1.5
+Home,Lakeside,150,3.0
+Home,Vineyard,100,2.0
+Home,Theme Park,180,3.5
+Home,Museum City,90,1.8
+Home,Forest Retreat,160,3.2
+Home,Spa Resort,130,2.6
+Home,Wildlife Park,110,2.2
+Mountain View,Seaside,180,3.6
+Mountain View,Lakeside,70,1.4
+Mountain View,Forest Retreat,50,1.0
+Mountain View,Mountain Lodge,60,1.2
+Mountain View,National Park,90,1.8
+Mountain View,Ski Resort,100,2.0
+Mountain View,Mountain Trail,30,0.6
+Seaside,Theme Park,60,1.2
+Seaside,Beach Resort,40,0.8
+Seaside,Fishing Village,50,1.0
+Seaside,Coastal Town,30,0.6
+Seaside,Island Getaway,120,2.4
+Historic Town,Museum City,40,0.8
+Historic Town,Historic Castle,60,1.2
+Historic Town,Art Town,70,1.4
+Historic Town,Urban Center,50,1.0
+Historic Town,Historic Site,30,0.6
+Lakeside,Forest Retreat,40,0.8
+Lakeside,Mountain Lodge,70,1.4
+Lakeside,National Park,80,1.6
+Vineyard,Culinary Village,50,1.0
+Vineyard,Desert Oasis,90,1.8
+Vineyard,Hot Springs,60,1.2
+Vineyard,Botanical Garden,40,0.8
+Theme Park,Beach Resort,70,1.4
+Theme Park,Adventure Park,50,1.0
+Theme Park,Amusement Park,60,1.2
+Museum City,Historic Castle,50,1.0
+Museum City,Art Town,60,1.2
+Museum City,Historic Site,40,0.8
+Forest Retreat,Mountain Lodge,40,0.8
+Forest Retreat,National Park,60,1.2
+Spa Resort,Hot Springs,50,1.0
+Spa Resort,Desert Oasis,70,1.4
+Wildlife Park,Beach Resort,90,1.8
+Wildlife Park,Fishing Village,70,1.4
+Culinary Village,Desert Oasis,60,1.2
+Culinary Village,Hot Springs,50,1.0
+Historic Castle,Art Town,40,0.8
+Historic Castle,Historic Site,30,0.6
+Mountain Lodge,Ski Resort,40,0.8
+Mountain Lodge,Mountain Trail,50,1.0
+Beach Resort,Fishing Village,30,0.6
+Beach Resort,Coastal Town,40,0.8
+Desert Oasis,Hot Springs,60,1.2
+Desert Oasis,Botanical Garden,80,1.6
+Art Town,Urban Center,30,0.6
+Art Town,Concert Venue,50,1.0
+Adventure Park,Amusement Park,40,0.8
+Island Getaway,Coastal Town,110,2.2
+National Park,Ski Resort,70,1.4
+National Park,Mountain Trail,40,0.8
+Urban Center,Historic Site,20,0.4
+Urban Center,Concert Venue,30,0.6
+Fishing Village,Coastal Town,20,0.4
+Mountain Trail,Ski Resort,60,1.2

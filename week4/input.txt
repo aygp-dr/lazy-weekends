@@ -1,0 +1,38 @@
+2023-06-03,Coffee,5.75,Morning
+2023-06-03,Bookstore,28.99,Morning
+2023-06-03,Lunch,18.50,Afternoon
+2023-06-03,Museum,22.00,Afternoon
+2023-06-03,Dinner,42.80,Evening
+2023-06-03,Drinks,15.25,Night
+2023-06-04,Brunch,24.99,Morning
+2023-06-04,Groceries,78.32,Afternoon
+2023-06-04,Pharmacy,12.49,Afternoon
+2023-06-04,Movie,16.50,Evening
+2023-06-04,Takeout,22.75,Night
+2023-06-10,Farmers Market,35.50,Morning
+2023-06-10,Hardware Store,45.99,Afternoon
+2023-06-10,Lunch,21.30,Afternoon
+2023-06-10,Drinks,18.75,Evening
+2023-06-10,Uber,12.50,Night
+2023-06-11,Bakery,8.95,Morning
+2023-06-11,Gas,48.75,Afternoon
+2023-06-11,Dinner,55.80,Evening
+2023-06-11,Ice Cream,7.50,Night
+2023-06-17,Coffee,4.50,Morning
+2023-06-17,Gym,15.00,Morning
+2023-06-17,Lunch,17.25,Afternoon
+2023-06-17,Shopping,95.50,Afternoon
+2023-06-17,Dinner,38.75,Evening
+2023-06-18,Brunch,32.50,Morning
+2023-06-18,Park,5.00,Afternoon
+2023-06-18,Groceries,65.25,Afternoon
+2023-06-18,Takeout,28.99,Evening
+2023-06-24,Farmers Market,28.75,Morning
+2023-06-24,Cafe,12.50,Morning
+2023-06-24,Bookstore,42.99,Afternoon
+2023-06-24,Dinner,65.80,Evening
+2023-06-24,Theater,45.00,Night
+2023-06-25,Bakery,9.50,Morning
+2023-06-25,Hardware Store,32.49,Afternoon
+2023-06-25,Groceries,58.75,Afternoon
+2023-06-25,Delivery,25.99,Evening

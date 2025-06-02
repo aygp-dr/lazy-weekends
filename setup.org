@@ -1,0 +1,48 @@
+#+TITLE: Haskell on FreeBSD - Setup Verification
+#+PROPERTY: header-args:haskell :results output :exports both
+
+* Environment Check
+#+begin_src shell :results output
+echo "=== GHC ==="
+ghc --version
+echo -e "\n=== Cabal ==="
+cabal --version
+echo -e "\n=== Location ==="
+which ghc
+which cabal
+#+end_src
+
+* First Haskell Program
+#+begin_src haskell :tangle hello-freebsd.hs :mkdirp t
+import System.Info
+
+main :: IO ()
+main = do
+    putStrLn $ "Hello from " ++ os ++ " " ++ arch ++ "!"
+    putStrLn $ "Compiled with GHC " ++ compilerVersion
+  where
+    compilerVersion = show System.Info.compilerVersion
+#+end_src
+
+* Build and Run
+#+begin_src shell :dir . :results output
+ghc -o hello-freebsd hello-freebsd.hs
+./hello-freebsd
+#+end_src
+
+* Project Structure
+#+begin_src mermaid :file haskell-env.png :mkdirp t
+graph TD
+    A[FreeBSD 14.2-RELEASE] --> B[GHC 9.6.6]
+    A --> C[Cabal 3.12.1.0]
+    B --> D[lazy-weekends project]
+    C --> D
+    D --> E[week1]
+    D --> F[week2]
+    D --> G[...]
+    D --> H[week8]
+    
+    style A fill:#ff6b6b
+    style B fill:#4ecdc4
+    style C fill:#45b7d1
+#+end_src

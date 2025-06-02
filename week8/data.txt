@@ -1,0 +1,18 @@
+# Weekend Project Data
+# Format: name|status|priority|hours|dependencies|start_date|end_date
+
+Build bookshelf|Completed|High|4.0|None|2023-06-03|2023-06-03
+Plant garden|Completed|Medium|3.5|Buy seeds|2023-06-04|2023-06-04
+Fix leaky faucet|Completed|High|2.0|Buy washers|2023-06-10|2023-06-10
+Paint living room|InProgress|High|6.0|Buy paint,Move furniture|2023-06-17|None
+Organize garage|Pending|Medium|5.0|None|None|None
+Learn Haskell basics|Completed|Medium|3.0|None|2023-06-11|2023-06-11
+Create photo album|InProgress|Low|4.0|Sort photos|2023-06-18|None
+Build fire pit|Pending|Low|8.0|Buy bricks,Clear yard space|None|None
+Repair bike|Completed|Medium|2.5|Buy new chain|2023-06-24|2023-06-24
+Plan summer vacation|InProgress|High|3.0|None|2023-06-25|None
+Setup home office|Pending|High|5.0|Buy desk,Buy chair|None|None
+Learn to bake bread|Completed|Low|3.0|Buy flour,Buy yeast|2023-07-01|2023-07-01
+Create garden path|Pending|Medium|4.0|Buy stones,Clear path area|None|None
+Install smart thermostat|Completed|Medium|1.5|Buy thermostat|2023-07-02|2023-07-02
+Write short story|InProgress|Low|6.0|None|2023-07-08|None

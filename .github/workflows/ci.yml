@@ -1,0 +1,36 @@
+name: Haskell CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up GHC
+      uses: haskell-actions/setup@v2
+      with:
+        ghc-version: '9.4.7'
+        cabal-version: '3.10.2.0'
+
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.cabal/store
+          dist-newstyle
+        key: ${{ runner.os }}-cabal-${{ hashFiles('**/*.cabal') }}
+        restore-keys: |
+          ${{ runner.os }}-cabal-
+
+    - name: Check with basic GHC
+      run: |
+        cd week1
+        ghc -Wall template.hs
+        cd ../week2
+        ghc -Wall template.hs

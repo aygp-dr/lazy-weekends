@@ -1,0 +1,15 @@
+Organize kitchen cabinets|Medium|NotStarted
+Fix broken shelf|High|InProgress
+Wash car|Low|Completed
+Meal prep for the week|High|NotStarted
+Clean garage|Medium|Completed
+Set up home office|High|InProgress
+Learn Haskell basics|Medium|InProgress
+Update resume|Medium|NotStarted
+Back up photos|Low|NotStarted
+Plant herbs in garden|Low|Completed
+Schedule dentist appointment|High|Completed
+Research vacation spots|Low|InProgress
+Sort through old clothes|Medium|InProgress
+Fix bike tire|Low|NotStarted
+Plan birthday party|High|NotStarted

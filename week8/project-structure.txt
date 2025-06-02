@@ -1,0 +1,55 @@
+# Project Structure for Weekend Planner Application
+
+weekend-planner/
+├── app/
+│   └── Main.hs              # Application entry point
+│
+├── src/
+│   ├── WeekendPlanner/
+│   │   ├── Types.hs         # Core data types
+│   │   ├── Parser.hs        # Command-line argument parsing
+│   │   ├── Storage.hs       # File I/O and persistence
+│   │   ├── Project.hs       # Project management functions
+│   │   ├── Schedule.hs      # Scheduling algorithms
+│   │   └── Report.hs        # Reporting and visualization
+│   │
+│   └── WeekendPlanner.hs    # Main library module
+│
+├── test/
+│   └── Spec.hs              # Test suite
+│
+├── weekend-planner.cabal    # Cabal package description
+├── Setup.hs                 # Cabal setup
+├── LICENSE                  # License file
+└── README.md                # Project documentation
+
+# The src/WeekendPlanner/Types.hs module should define:
+# - Project data type
+# - Status data type (Pending, InProgress, Completed)
+# - Priority data type (High, Medium, Low)
+# - Dependency representation
+
+# The src/WeekendPlanner/Parser.hs module should define:
+# - Command-line parsing using optparse-applicative
+# - Commands (add, list, schedule, complete, report)
+# - Command options and arguments
+
+# The src/WeekendPlanner/Storage.hs module should define:
+# - Functions to read projects from file
+# - Functions to write projects to file
+# - Project serialization and deserialization
+
+# The src/WeekendPlanner/Project.hs module should define:
+# - Functions to add projects
+# - Functions to update project status
+# - Functions to manage dependencies
+
+# The src/WeekendPlanner/Schedule.hs module should define:
+# - Algorithm to generate optimal schedules
+# - Dependency resolution
+# - Time allocation
+
+# The src/WeekendPlanner/Report.hs module should define:
+# - Functions to generate reports
+# - Project statistics calculation
+# - Simple text-based visualizations

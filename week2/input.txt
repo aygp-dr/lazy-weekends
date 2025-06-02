@@ -1,0 +1,13 @@
+Saturday 08:00 Exercise Yoga 60
+Saturday 10:00 Social Brunch 90
+Saturday 12:30 Hobby Gardening 120
+Saturday 15:00 Errands Shopping 90
+Saturday 17:00 Social Dinner 120
+Saturday 20:00 Leisure Movie 150
+Sunday 09:00 Exercise Jogging 45
+Sunday 10:00 Social Coffee 60
+Sunday 11:30 Chores Cleaning 90
+Sunday 14:00 Hobby Painting 120
+Sunday 16:30 Leisure Reading 90
+Sunday 18:30 Social Dinner 90
+Sunday 20:30 Leisure Gaming 120

@@ -1,0 +1,15 @@
+Reading 60
+Jogging 45
+Cooking 90
+Gardening 120
+Gaming 180
+Painting 75
+Cleaning 30
+Yoga 50
+Writing 100
+Movie 110
+Hiking 150
+Baking 85
+Meditation 20
+Coffee 40
+Napping 35

@@ -1,0 +1,10 @@
+Functional Programming in Haskell|John Smith|Unread
+The Art of Computer Programming|Donald Knuth|In Progress
+Learn You a Haskell|Miran Lipovaca|Completed
+Haskell: The Craft of Functional Programming|Simon Thompson|Unread
+Real World Haskell|Bryan O'Sullivan|In Progress
+Programming in Haskell|Graham Hutton|Completed
+Get Programming with Haskell|Will Kurt|Unread
+Thinking Functionally with Haskell|Richard Bird|In Progress
+Parallel and Concurrent Programming in Haskell|Simon Marlow|Unread
+Haskell Programming from First Principles|Christopher Allen|In Progress

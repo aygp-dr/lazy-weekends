@@ -1,0 +1,55 @@
+MOVIE: The Grand Budapest Hotel (2014)
+DIRECTOR: Wes Anderson
+GENRES: Comedy, Drama
+WATCHED: 2023-06-03
+RATING: 4.5/5
+NOTES: Visually stunning, great story.
+
+MOVIE: Parasite (2019)
+DIRECTOR: Bong Joon-ho
+GENRES: Thriller, Drama, Comedy
+WATCHED: 2023-06-10
+RATING: 5/5
+NOTES: Masterpiece, unexpected twists.
+
+MOVIE: Everything Everywhere All at Once (2022)
+DIRECTOR: Daniel Kwan, Daniel Scheinert
+GENRES: Sci-Fi, Comedy, Action
+WATCHED: 2023-06-17
+RATING: 4.8/5
+NOTES: Mind-bending and emotional.
+
+MOVIE: The Shawshank Redemption (1994)
+DIRECTOR: Frank Darabont
+GENRES: Drama
+WATCHED: 2023-06-24
+RATING: 5/5
+NOTES: Classic, perfect storytelling.
+
+MOVIE: Inception (2010)
+DIRECTOR: Christopher Nolan
+GENRES: Sci-Fi, Action, Thriller
+WATCHED: 2023-07-01
+RATING: 4.7/5
+NOTES: Complex plot, amazing visuals.
+
+MOVIE: The Social Network (2010)
+DIRECTOR: David Fincher
+GENRES: Drama, Biography
+WATCHED: 2023-07-08
+RATING: 4.3/5
+NOTES: Great screenplay, well-paced.
+
+MOVIE: Get Out (2017)
+DIRECTOR: Jordan Peele
+GENRES: Horror, Thriller
+WATCHED: 2023-07-15
+RATING: 4.6/5
+NOTES: Thought-provoking and suspenseful.
+
+MOVIE: La La Land (2016)
+DIRECTOR: Damien Chazelle
+GENRES: Musical, Romance, Drama
+WATCHED: 2023-07-22
+RATING: 4.2/5
+NOTES: Beautiful cinematography and music.
