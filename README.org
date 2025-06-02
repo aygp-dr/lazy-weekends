@@ -1,0 +1,121 @@
+#+TITLE: Lazy Weekends: Learn Haskell at Your Own Pace
+#+AUTHOR: Aidan Pace
+#+DATE: 2025-06-02
+
+A chill, 8-week Haskell learning journey designed for busy people who want to explore functional programming without the pressure.
+
+* Philosophy
+
+"If you miss a weekend, no big deal. If you solve it in a weird way, that's fine too. The goal is to get comfortable with functional thinking, not to optimize everything."
+
+* What This Is
+
+- *8 weekend exercises* that build on each other naturally
+- *2-3 hours per weekend* (but take as long as you need)
+- *AOC-style structured problems* with real parsing challenges
+- *No bootcamp pressure* - learn at your own pace
+
+* Structure
+
+Each week has its own folder (=week1/=, =week2/=, etc.) containing:
+
+- =README.md= - Problem description and learning goals
+- =input.txt= - Structured data to parse (no trivial inputs!)
+- =template.hs= - Starter code with type signatures
+- =spoilers/solution.hs= - Reference solution (peek if you're stuck)
+
+* Learning Path
+
+** Weeks 1-2: Foundation
+- Lists, basic functions, simple parsing
+- Getting comfortable with Haskell syntax
+
+** Weeks 3-4: Core Concepts
+- Pattern matching, recursion, custom types
+- Building your functional thinking muscles
+
+** Weeks 5-6: Real Tools
+- Monads, parsing libraries, file I/O
+- Writing actual useful programs
+
+** Weeks 7-8: Polish
+- Real-world problems, performance, style
+- Becoming a confident Haskeller
+
+* Getting Started
+
+** Prerequisites
+- Basic programming experience in any language
+- Curiosity about functional programming
+- A weekend or two to spare
+
+** Setup
+
+1. *Install Haskell* (choose one):
+   #+begin_src bash
+   # GHCup (recommended)
+   curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+   
+   # Or via package manager
+   # macOS: brew install ghc cabal-install
+   # Ubuntu: apt install ghc cabal-install
+   # FreeBSD: pkg install ghc hs-cabal-install
+   #+end_src
+
+2. *Clone and start*:
+   #+begin_src bash
+   git clone https://github.com/aygp-dr/lazy-weekends.git
+   cd lazy-weekends/week1
+   ghci template.hs
+   #+end_src
+
+3. *Test your setup*:
+   #+begin_src haskell
+   -- In GHCi
+   :load template.hs
+   main
+   #+end_src
+
+** How to Use Each Week
+
+1. *Read the README* - understand the problem and goals
+2. *Look at input.txt* - see what data you're working with  
+3. *Start with template.hs* - fill in the type signatures
+4. *Run and test* - =ghci template.hs= then call functions
+5. *Check spoilers/* when stuck (no shame!)
+
+* Tips for Success
+
+- *Don't rush* - each concept builds on the last
+- *Experiment in GHCi* - the REPL is your friend
+- *Read error messages* - Haskell's compiler is surprisingly helpful
+- *Embrace weird solutions* - there's usually 5 ways to solve anything
+- *Ask questions* - the Haskell community is friendly
+
+* When You Get Stuck
+
+1. *Read the error message twice* - Haskell errors are better than you think
+2. *Check the spoilers* - they're there for a reason
+3. *Try =:type= in GHCi* - understand what you're working with
+4. *Google "haskell how to X"* - someone has asked before
+5. *Take a break* - sometimes the solution comes in the shower
+
+* What You'll Build
+
+By the end, you'll have written programs that:
+- Parse real data formats
+- Handle errors gracefully  
+- Use monads naturally
+- Solve interesting problems
+- Look like idiomatic Haskell
+
+* Contributing
+
+Found a bug? Have a better explanation? Want to add a week?
+Pull requests welcome! This is meant to be a living resource.
+
+-----
+
+*Ready to start?* Head to =week1/= and dive in!
+
+/Remember: The goal isn't perfection, it's progress. Happy lazy coding! 🏖️/
