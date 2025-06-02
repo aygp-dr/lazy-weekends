@@ -1,4 +1,4 @@
-.PHONY: all clean deps help test
+.PHONY: all clean deps help test spoilers
 
 # Default target
 all: help
@@ -27,15 +27,41 @@ test:
 		fi \
 	done
 
+# Run the solution for a specific week
+spoilers:
+	@if [ -z "$(WEEK)" ]; then \
+		echo "Usage: make spoilers WEEK=week1"; \
+		echo "Or use: make spoilers WEEK=all to run all weeks"; \
+	else \
+		if [ "$(WEEK)" = "all" ]; then \
+			for week in week*; do \
+				echo "\n\n==== $$week Solution ===="; \
+				if [ -f $$week/spoilers/solution.hs ]; then \
+					(cd $$week && ghc -o solution spoilers/solution.hs && ./solution); \
+				else \
+					echo "No solution available for $$week"; \
+				fi; \
+			done; \
+		else \
+			echo "\n==== $(WEEK) Solution ===="; \
+			if [ -f $(WEEK)/spoilers/solution.hs ]; then \
+				(cd $(WEEK) && ghc -o solution spoilers/solution.hs && ./solution); \
+			else \
+				echo "No solution available for $(WEEK)"; \
+			fi; \
+		fi; \
+	fi
+
 # Show help information
 help:
 	@echo "Lazy Weekends - Learn Haskell at Your Own Pace"
 	@echo ""
 	@echo "Available targets:"
-	@echo "  deps    - Check for required dependencies"
-	@echo "  clean   - Remove build artifacts"
-	@echo "  test    - Run tests for each week (if available)"
-	@echo "  help    - Display this help message"
+	@echo "  deps     - Check for required dependencies"
+	@echo "  clean    - Remove build artifacts"
+	@echo "  test     - Run tests for each week (if available)"
+	@echo "  spoilers - Run the solution for a specific week (make spoilers WEEK=week1)"
+	@echo "  help     - Display this help message"
 	@echo ""
 	@echo "Getting started:"
 	@echo "  1. Run 'make deps' to check your environment"
