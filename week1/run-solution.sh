@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Simple script to run the Week 1 solution
 
 echo "Running Week 1 solution..."
