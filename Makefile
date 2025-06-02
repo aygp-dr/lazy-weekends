@@ -6,7 +6,7 @@ all: help
 # Check dependencies
 deps:
 	@echo "Checking dependencies..."
-	@./scripts/deps.sh
+	@/usr/bin/env bash ./scripts/deps.sh
 
 # Clean build artifacts
 clean:

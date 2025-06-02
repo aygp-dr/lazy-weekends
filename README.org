@@ -96,9 +96,43 @@ Each week has its own folder (=week1/=, =week2/=, etc.) containing:
 
 1. *Read the error message twice* - Haskell errors are better than you think
 2. *Check the spoilers* - they're there for a reason
-3. *Try =:type= in GHCi* - understand what you're working with
+3. *Try ~:type~ in GHCi* - understand what you're working with
 4. *Google "haskell how to X"* - someone has asked before
 5. *Take a break* - sometimes the solution comes in the shower
+
+* Resources
+
+** Documentation
+- [[https://www.haskell.org/documentation/][Official Haskell Documentation]]
+- [[https://hoogle.haskell.org/][Hoogle]] - Search for functions by name or type signature
+- [[https://hackage.haskell.org/][Hackage]] - Haskell package repository
+
+** Community
+- [[https://www.reddit.com/r/haskell/][r/haskell]] - Reddit community
+- [[https://discord.gg/haskell][Haskell Discord]]
+- [[https://discourse.haskell.org/][Haskell Discourse]]
+- ~#haskell~ channel on Libera.Chat IRC
+
+** Useful GHCi Commands
+#+begin_src haskell
+:t expr        -- Show the type of 'expr'
+:i name        -- Show info about 'name'
+:set +t        -- Show types of evaluated expressions
+:r             -- Reload the current module
+:sprint name    -- Show the current value of 'name'
+:doc function   -- Show documentation for 'function'
+#+end_src
+
+** Debugging Tips
+- Use ~trace~ from ~Debug.Trace~ for print debugging:
+  #+begin_src haskell
+import Debug.Trace
+
+factorial n = trace ("Computing factorial of " ++ show n) $
+              if n <= 1 then 1 else n * factorial (n-1)
+  #+end_src
+- Break complex expressions into smaller named components
+- Test functions with simple inputs in GHCi
 
 * What You'll Build
 
