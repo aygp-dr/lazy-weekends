@@ -1,4 +1,4 @@
-.PHONY: all clean deps help test spoilers
+.PHONY: all clean deps help test spoilers hlint
 
 # Default target
 all: help
@@ -52,6 +52,23 @@ spoilers:
 		fi; \
 	fi
 
+# Install and run HLint
+hlint:
+	@echo "Checking if HLint is installed..."
+	@if command -v hlint >/dev/null 2>&1; then \
+		echo "HLint found: $$(hlint --version)"; \
+	else \
+		echo "Installing HLint..."; \
+		cabal install hlint; \
+	fi
+	@echo "Running HLint on code..."
+	@for week in week*; do \
+		if [ -d $$week ]; then \
+			echo "Checking $$week..."; \
+			hlint $$week --ignore="Use camelCase" || true; \
+		fi \
+	done
+
 # Show help information
 help:
 	@echo "Lazy Weekends - Learn Haskell at Your Own Pace"
@@ -61,6 +78,7 @@ help:
 	@echo "  clean    - Remove build artifacts"
 	@echo "  test     - Run tests for each week (if available)"
 	@echo "  spoilers - Run the solution for a specific week (make spoilers WEEK=week1)"
+	@echo "  hlint    - Run HLint to check code quality"
 	@echo "  help     - Display this help message"
 	@echo ""
 	@echo "Getting started:"
