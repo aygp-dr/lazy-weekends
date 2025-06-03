@@ -35,3 +35,7 @@ Thumbs.db
 *.swp
 *~
 .env
+
+# Compiled solutions
+solution
+week*/solution
