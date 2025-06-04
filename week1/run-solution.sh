@@ -10,7 +10,7 @@ ghc -o solution spoilers/solution.hs
 ./solution
 
 # Clean up
-rm -f solution *.hi *.o spoilers/*.hi spoilers/*.o
+rm -f solution ./*.hi ./*.o ./spoilers/*.hi ./spoilers/*.o
 
 echo -e "\nWeek 1 solution completed!"
 echo "Try modifying the input.txt file to test with different data."
