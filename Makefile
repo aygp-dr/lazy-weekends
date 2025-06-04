@@ -75,8 +75,7 @@ lint-haskell:
 			hlint $$week --ignore="Use camelCase" || true; \
 		fi \
 	done
-	@echo "
-=== Running GHC checks ==="
+	@echo "\n=== Running GHC checks ==="
 	@./scripts/ghc-lint.sh || true
 
 # Lint org-mode files
@@ -111,4 +110,4 @@ help:
 	@echo "  2. Navigate to week1/ to begin"
 	@echo "  3. Read the README.md in each week's directory"
 	@echo ""
-	@echo "See the main README.md for more information."
+	@echo "See the main README.org for more information."
